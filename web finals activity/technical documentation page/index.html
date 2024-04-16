@@ -1,0 +1,312 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <nav id="navbar">
+      <header>Commands and tags I learned in CC14, from midterm to finals. </header>
+      <ul>
+        <li><a class="nav-link" href="#Introduction">Introduction</a></li>
+        <li>
+          <a class="nav-link" href="#What_I_learned"
+            >What I learned</a
+          >
+        </li>
+        <li>
+          <a class="nav-link" href="About HTML"
+            >Introduction to HTML</a
+          >
+        </li>
+        <li><a class="nav-link" href="#HTML5">HTML5</a></li>
+        <li><a class="nav-link" href="#HTML Elements">HTML Elements</a></li>
+        <li>
+          <a class="nav-link" href="#CSS"
+            >CSS</a
+          >
+        </li>
+        <li><a class="nav-link" href="#Advanced Git Commands">Advanced Git Commands</a></li>
+        <li>
+          <a class="nav-link" href="#Cascading Style Sheets">Cascading Style Sheets</a>
+        </li>
+        <li><a class="nav-link" href="#Windows Subsystem for linux">Windows Subsytem for Linux</a></li>
+        <li><a class="nav-link" href="#Guide to Flexbox"> Guide Flexbox</a></li>
+      </ul>
+    </nav>
+    <main id="main-doc">
+      <section class="main-section" id="Introduction">
+        <header>Introduction</header>
+        <article>
+          <p>
+            HTML is a markup language that defines the structure of your content. HTML consist of series of elements, which you use to enclose, or wrap, different parts of the content to make it appear a certain way, or act a certain way.
+            HTML5 is the latest version of HTML, and it introduces new featuress and improvements over its predecessors.
+          </p>
+
+          <p>
+           It provides tags and attributes that define the various elemets on a web page, such as headings, paragraphs, images, links, forms and more. HTML5 also included new elements like header, nav, article, section, footer, which in structuring the content more semantically
+          </p>
+        </article>
+      </section>
+      <section class="main-section" id="What I learned">
+        <header>What I learned</header>
+        <article>
+          <p>What I learned from from CC14 are brief history of HTML, and different elements of HTML and its uses. Here are some of the Elements that I learned through out the whole semester:</p>
+        </article>
+      </section>
+      <section class="main-section" id="HTML5">
+        <header>HTML5</header>
+        <article>
+          <p>
+            HTML5 is the fifth and the current version of HTML. It has improved the markup available for documents and has introduced application programming interfaces (API) and Document Object Model (DOM).
+          </p>
+        </article>
+      </section>
+      <section class="main-section" id="HTML Elements">
+        <header>HTML Elements</header>
+        <article>
+          First let's breakdown the different parts of HTML Elements.
+          <ul>
+           <li><strong>Basic HTML Tags</strong></li>
+           <p>These are tags that define the structure of an HTML document. It instruct the browser on how the content must be organize
+            separating the document title meta information and the main body. The html tag marks the start and end of the document. While 
+            the head and body contains specific parts. Here are some of examples of Structure Tags: Doctype, html, head, body, title.</p>
+         </ul>
+         <ul>
+          <li><Strong>Formatting</Strong></li>
+          <p>Controls how your text is displayed on your website. And ensures that the content is visually appealing organized and easy to read. Here are some examples: blockqoute, center, abbr, address and etc... </p>
+         </ul>
+         <ul>
+          <li><strong>Forms and Input</strong></li>
+          <p>These are interactive elements that collect user input There are various tags such as form, input, label, button, action
+            These let'e you gather information about users and gives you great experience in browsing the website. 
+          </p>
+         </ul>
+         <ul>
+          <li><strong>Images</strong></li>
+          <p>It allows you to embedd images in HTML whether it is from the web or downloaded. It also let's you control some of the attributes of the image. Here are some of the tags that are used: src, alt, img, height, width.</p>
+         </ul>
+         <ul>
+          <li><strong>Audio and Video</strong></li>
+          <p>Allows you to embedd music and videos.Here are some of the tags that lets you control them: Controls let you control the audio and video just like youtube. 
+            Src attribute defines the location of the file media. By using these tags effetively users can have a great experience in the website. 
+          </p>
+         </ul>
+         <ul>
+          <li><Strong>List</Strong></li>
+          <p>Defines text and make your document more organized. An example of this are li, ul, ol and many more.</p>
+         </ul>
+         <ul>
+          <li><strong>Tables</strong></li>
+          <p>Tables are used to structure and present data in a clear and organized way using rows and columns.
+            And makes your document more readable. Example for this are: tr, th, th, td, thead and colgroup.</p>
+         </ul>
+         <ul>
+          <li><strong>Style and Semantic</strong></li>
+          <p>Style make your document/webpage more presentable. While the Semantics make your document more understanble. For styling a webpage programmers use 
+            CSS. When using CSS you can define font sizes, colors, backgrounds, and layouts for heading, paragraphs and heading. For semantics it provides the structure and meaning of the content on a webpage. It uses the tags: p, table, h1, li, and many more. 
+          </p>
+         </ul>
+        </article>
+      </section>
+      <section class="main-section" id="Advanced 10 Git Commands">
+        <header>Advanced 10 Git Commands</header>
+        <article>
+          <ul>
+            <li><strong>Add & Commit</strong></li>
+            <p>Means that you have added and committed the files. Sample Code:</p>
+            <code> <li> $ git add .</li>
+              <li>git commit -m ""</li>
+            </code>
+            <p>Here is the shortcut code:
+              <code><li>$ git commit -am ""</li></code>
+            </p>
+          </ul>
+          <ul>
+            <li><strong>Amend</strong></li>
+            <p>These can help you rerwrite from any accident messages when you already pushed you work.</p>
+            <code>$ git commit --ammend -m "Love"</code><br>
+              <code>[master 75b7f891] Love</code><br>
+              <code>Date: Mon Jan 22 17:57:58 2024 +0500</code><br>
+              <code>4 files changed, 2 insertions(+), 1 deletions(1)</code>
+              <p>You can also include additional changes to the current commit before pushing it to the repository. Here is the command:</p>
+              <code>$ git add .</code><br>
+              <code>& git commit --amend --no edit</code><br>
+              <code>[master f425059] Love</code><br>
+              <code>Date: Mon Jan 22 17:57:58 +0500</code><br>
+              <code>6 files changed, 2 insertions(+), 34 deletions(-)</code>
+          </ul>
+          <ul>
+            <li><strong>Revert</strong></li>
+            <p>To undo a commit in Git, you can use the 'revert' command. However it does not remove any commits instead it creates a new commit that undoes the changes made by original commit.
+              We will use the 'log' with  '--online' flag to view commit history in a shorter form:
+            </p>
+            <code>f425059 (HEAD -> master, origin/master) Love</code><br>
+            <code>8f184d5 first commit</code>
+            <p>To revert a previous commit, we use the 'git revert' command  followed by the commit ID. This creates a new commit with the changes from the previous commit.</p>
+          </ul>
+        </article>
+      </section>
+      <section class="main-section" id="Cascading Style Sheets">
+        <header><strong>Cascading Style Sheets</strong></header>
+        <article>
+          A stylesheet language that is used to describe the presenatation of a document written in HTML or XML
+          <p>
+           Cascading Stylesheet was created to bring consistency to how webpages are displayed. While early browsers did'nt fully support CSS, newer ones are much better.
+          </p>
+          <p>
+            CSS uses style rules to define how HTML elements look. These rules are grouped together in a stylesheet, which is easy to understand and write. It has two parts, a selector that identifies the element, and a declaration that specifies its properties such as font size or color.
+          </p>
+          <ul>
+            <li><strong>Combining CSS Style Rules with HTML</strong></li>
+            <li>Inline Style - Good for small tweaks but can get messy.</li>
+            <li>Internal CSS - It keeps you file organize. But is only limited through that file.</li>
+            <li>External CSS - Created to separate a CSS file and create a link to your HTML file. It is ideal for reusability.</li>
+          </ul>
+          <ul>
+            <h1><strong>Using Inheritance to write a simplier code:</strong></h1>
+            <p>Styles can be broken down form parent to child elements, creating a baseline lines. Property descriptions tell you if inheritance can be applied. This lets you define styles once for parent and have them cascade down, greatly reducing your code.</p>
+          </ul>
+        </article>
+      </section>
+      <section class="main-section" id="Windows Subsystem for Linux">
+        <header>Windows Subsystem for linux</header>
+        <article>
+          <h1><strong>Linux Commands:</strong></h1>
+          <ul>
+            <li>wsl --install - installs linux for Windows Subsystem for Linux</li>
+            <li>wsl - opens your WSL terminal</li>
+            <li>logout or exit - Returns to Windows Command propmt</li>
+            <li>clear - clears the terminal screen</li>
+          </ul>
+          <h1><strong>Apache on WSL:</strong></h1>
+          <ul>
+            <li>Update and upgrade Linux:</li>
+            <code>$ sudo apt update</code><br>
+            <code>$sudo apt upgrade</code>
+            <li>Install Apache</li>
+            <code>$ sudo apt -get install apache2</code>
+            <li>Manage Apache service:</li>
+            <code>Start: $ sudo service apache2 start</code><br>
+            <code>Stop: & sudo service apache2 stop </code>
+            <li>Apache Setup</li>
+            <code>Edit file: $ sudo nano /etc/apache2/sites-available/000-default.conf</code><br>
+            <code>Check status: $ sudo systemctl status apache2</code><br>
+            <code>Restart: $ sudo systemctl restart apache2 (after config changes)</code>
+            <li>Folder Locations:</li>
+            <code>Apache Folder : /etc/apache2</code><br>
+            <code>Document Root : /var/www/</code>
+          </ul>
+          </article>
+      </section>
+      <section class="main-section" id=" GuideFlexBox">
+        <header>Guide to FlexBox</header>
+        <article>
+          <p>
+            FlexBox is a comprehensive layout system. Not just a single property. It involves properties such as container(flex container) and children(flex items). While traditional layouts use block and inline flow, flexbox uses a "flex-flow" direction. This direction determines how items are laid out along
+            main axis(row or columns) and a cross axis. Here are some of the terminologies: 
+          </p>
+          <ul>
+            <li>main-axis - direction of the row/column along which flex items are arranged.</li>
+            <li>main start-end - Where flex items start and end along the main axis.</li>
+            <li>main size -  The width or height of a flex items depending on the main axis direction.</li>
+            <li>cross-axis - The axis perpendicular to main axis, where allignment happens.</li>
+            <li>cross start/end - Where flex  items start and end along the cross axis </li>
+            <li>cross size -  The width or height of a flex item depending on the cross axis direction.</li>
+          </ul>
+
+          <h1><strong>Flexbox Properties</strong></h1>
+          <ul>
+            <li>Properties for the Parent</li>
+            <p>display -  it defines the flex container; inline block depending on the given value. It enables a flexbox context for all its direct children.</p>
+           <code>.container {
+            display: flex; /* or inline-flex */
+          }</code>
+            <li>flex-direction</li>
+            <p>This estalishes the main-axis, thus defining the direction flex items are placed in the flex container. Flexbox is a single direction layout concept.</p>
+            <code>.container {
+              flex-direction: row | row-reverse | column | column-reverse;
+            }</code>
+            <li>flex-wrap</li>
+            <p>By default, flex items will all try to fit onto one line. You can change that and allow the items to 
+              wrap as needed with this property.
+            </p>
+            <code>.container {
+              flex-wrap: nowrap | wrap | wrap-reverse;
+            }</code>
+            <li>flex-flow</li>
+            <p>This is a shorthand for flex-direction and flex-wrap properties, which together define the flex container's
+              main cross and axis.
+            </p>
+            <code>.container {
+              flex-flow: column wrap;
+            }</code>
+            <li>justify-content</li>
+            <p>This defines the allignment along the main axis. It helps distribute extra free space leftover when either
+              all the flex items on a line are inflexible, or are flexible but have reached their maximum size.
+            </p>
+            <code>.container {
+              justify-content: flex-start | flex-end | center | space-between | space-around | space-evenly | start | end | left | right ... + safe | unsafe;
+            }</code>
+            <li>align-items</li>
+            <p>This defines the default behavior for the flex items are laid out along the cross axis on the current line.</p>
+            <code>.container {
+              align-items: stretch | flex-start | flex-end | center | baseline | first baseline | last baseline | start | end | self-start | self-end + ... safe | unsafe;
+            }</code>
+            <li>align-content</li>
+            <p>This aligns a flex container's lines within when there is extra space in the cross axis, similar to how justify-content aligns individual within the main axis.</p>
+            --This property only takes effect on multi-line flexible containers, where flex wrap is set to either wrap or warp-reverse. A single-line flexible container is set to
+            its default value, no wrap.
+            <code>.container {
+              align-content: flex-start | flex-end | center | space-between | space-around | space-evenly | stretch | start | end | baseline | first baseline | last baseline + ... safe | unsafe;
+            }</code>
+            <li>gap, row-gap, column gap</li>
+            <p>The gap property explicitly controls the space between flex items. It applies that spacing only between items not on the outer edge.</p>
+            <code>.container {
+              display: flex;
+              ...
+              gap: 10px;
+              gap: 10px 20px; /* row-gap column gap */
+              row-gap: 10px;
+              column-gap: 20px;
+            }</code>
+            <h1>Properties for the Children(flex items)</h1>
+            <li>order</li>
+            <p>By default flex items are laid out in the source order. However, the order property controls the order in which they appear in the flex container.</p>
+            <code>.item {
+              order: 5; /* default is 0 */
+            }</code>
+            <li>flex-grow</li>
+            <p>This defines the ability of the text to grow if necessary. It accepts a unitless value that serves as a proportion. It dictates what amount of the availbale space inside the flex container the itm should take up.</p>
+            <code>.item {
+              flex-grow: 4; /* default 0 */
+            }</code>
+            <li>flex-shrink</li>
+            <p>This defines the ability for a flex item to shrink if necessary.</p>
+            <code>.item {
+              flex-shrink: 3; /* default 1 */
+            }</code>
+            <li>flex-basis</li>
+            <p>This defines the size of an element before the remaining space is distributed. It can be a length or a keyword.</p>
+            <code>.item {
+              flex-basis:  | auto; /* default auto */
+            }</code>
+            <li>flex</li>
+            <p>This is the shorthand for flex-grow, flex-shrink and flex-basis combined. The second and third parameters (flex-shrink and flex-basis) are optional. The default is 0 1 auto, but if you set it with a single number value, like flex: 5;, that changes the flex-basis to 0%, so it’s like setting flex-grow: 5; flex-shrink: 1; flex-basis: 0%;.</p>
+             <code>.item {
+              flex: none | [ <'flex-grow'> <'flex-shrink'>? || <'flex-basis'> ]
+            }</code>
+            <li>align-self</li>
+            <p>This allows the default alignment to be overridden for invidual flex items.</p>
+            <code>.item {
+              align-self: auto | flex-start | flex-end | center | baseline | stretch;
+            }</code>
+          </ul>
+
+          
+          
+        </article>
+      </section>
+     
+    </main>
+  </body>
+</html>

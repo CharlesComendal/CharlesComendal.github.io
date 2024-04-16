@@ -1,0 +1,75 @@
+/* Resetting default margin and padding */
+body, h1, h2, h3, p, ul, li {
+    margin: 0;
+    padding: 0;
+  }
+  
+  /* Applying styles to the navigation bar */
+  #navbar {
+    background-color: gray;
+    color: white;
+    padding: 10px;
+  }
+  
+  #navbar header {
+    font-size: 1.5em;
+    margin-bottom: 10px;
+  }
+  
+  #navbar ul {
+    list-style-type: none;
+  }
+  
+  #navbar ul li {
+    display: inline;
+    margin-right: 20px;
+  }
+  
+  #navbar ul li a {
+    color: white;
+    text-decoration: none;
+  }
+  
+  /* Applying styles to the main content */
+  #main-doc {
+    margin-top: 20px;
+    padding: 20px;
+  }
+  
+  .main-section {
+    margin-bottom: 30px;
+  }
+  
+  .main-section header {
+    font-size: 1.2em;
+    margin-bottom: 10px;
+  }
+  
+  .main-section article p {
+    line-height: 1.5;
+  }
+  
+  /* Applying styles to code snippets */
+  .main-section code {
+    background-color: white;
+    color: #333;
+    padding: 5px;
+    display: block;
+    margin: 10px 0;
+  }
+  
+  /* Applying styles to code snippet lines */
+  .main-section code li {
+    display: inline;
+  }
+  
+  /* Applying styles to links */
+  a {
+    color: blue;
+    text-decoration: none;
+  }
+  
+  a:hover {
+    text-decoration: underline;
+  }
+  
